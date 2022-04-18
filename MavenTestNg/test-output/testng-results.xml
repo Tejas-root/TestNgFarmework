@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-11T14:40:00 IST" name="Default suite" finished-at="2022-04-11T14:40:51 IST" duration-ms="51369">
+    <groups>
+    </groups>
+    <test started-at="2022-04-11T14:40:00 IST" name="Default test" finished-at="2022-04-11T14:40:51 IST" duration-ms="51369">
+      <class name="com.test.MavenTestNg.Register">
+        <test-method is-config="true" signature="setup1()[pri:0, instance:com.test.MavenTestNg.Register@446293d]" started-at="2022-04-11T14:39:43 IST" name="setup1" finished-at="2022-04-11T14:40:00 IST" depends-on-methods="com.test.MavenTestNg.BaseClass.setup" duration-ms="16121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method is-config="true" signature="xpath()[pri:0, instance:com.test.MavenTestNg.Register@446293d]" started-at="2022-04-11T14:40:19 IST" name="xpath" finished-at="2022-04-11T14:40:19 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xpath -->
+        <test-method signature="getin()[pri:0, instance:com.test.MavenTestNg.Register@446293d]" started-at="2022-04-11T14:40:19 IST" name="getin" finished-at="2022-04-11T14:40:45 IST" duration-ms="25920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.MavenTestNg.Register@446293d]" started-at="2022-04-11T14:40:49 IST" name="logout" finished-at="2022-04-11T14:40:51 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.test.MavenTestNg.Register@446293d]" started-at="2022-04-11T14:40:56 IST" name="close" finished-at="2022-04-11T14:40:57 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.MavenTestNg.Register -->
+      <class name="com.test.MavenTestNg.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:39:25 IST" name="setup" finished-at="2022-04-11T14:39:43 IST" duration-ms="18714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:02 IST" name="getXpath" finished-at="2022-04-11T14:40:02 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:02 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:03 IST" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:03 IST" name="getXpath" finished-at="2022-04-11T14:40:03 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:03 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:03 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:03 IST" name="getXpath" finished-at="2022-04-11T14:40:03 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:03 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:05 IST" duration-ms="1949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:05 IST" name="getXpath" finished-at="2022-04-11T14:40:05 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:05 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:07 IST" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queuecodes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:07 IST" name="getXpath" finished-at="2022-04-11T14:40:07 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:07 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:09 IST" duration-ms="2231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:09 IST" name="getXpath" finished-at="2022-04-11T14:40:09 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:09 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:11 IST" duration-ms="1818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[queuecodes@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getXpath()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:11 IST" name="getXpath" finished-at="2022-04-11T14:40:11 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getXpath -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:11 IST" name="login" data-provider="logindata" finished-at="2022-04-11T14:40:19 IST" duration-ms="8100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:45 IST" name="logout" finished-at="2022-04-11T14:40:49 IST" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.MavenTestNg.Login@69997e9d]" started-at="2022-04-11T14:40:54 IST" name="teardown" finished-at="2022-04-11T14:40:56 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.MavenTestNg.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
